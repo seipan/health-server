@@ -9,5 +9,5 @@ func main() {
 			"message": "ok",
 		})
 	})
-	router.Run()
+	router.Run(":8080")
 }

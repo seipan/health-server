@@ -1,4 +1,4 @@
-name: Pull Request Check
+name: kubernetes manifests validation
 
 on: [pull_request]
 

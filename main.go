@@ -9,5 +9,8 @@ func main() {
 			"message": "ok",
 		})
 	})
+	router.GET("/", func(c *gin.Context) {
+		c.Redirect(302, "/health")
+	})
 	router.Run(":8080")
 }

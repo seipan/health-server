@@ -20,3 +20,7 @@ response
     "message": "ok"
 }
 ```
+
+ ## License
+Code licensed under 
+[the MIT License](https://github.com/seipan/health-server/blob/main/LICENSE).

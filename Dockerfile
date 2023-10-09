@@ -1,7 +1,7 @@
 ## Build
 FROM golang:1.20-buster AS build
 
-WORKDIR /go/src/github.com/cryptobranchoidea/fisap
+WORKDIR /go/src/github.com/seipan/health-server
 
 COPY go.mod ./
 COPY go.sum ./

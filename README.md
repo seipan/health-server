@@ -32,6 +32,11 @@ tree .
 make build-kube
 ```
 
+## Run
+```
+minikube service health-service
+```
+
 ## API
 health api
 ```

@@ -2,6 +2,7 @@
 build-kube:
 	docker build -t yadon3141/health .
 	cd k8s/manifest/app && kubectl apply -k .
+	cd k8s/manifest/nginx && kubectl apply -f nginx-ingress.yml
 
 .PHONY: re-kube
 re-kube:

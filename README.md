@@ -1,6 +1,31 @@
 # health-server
 🐳healthエンドポイントだけを備えたサーバーをk8sで構築したい🐳
 
+tree .
+```
+.
+├── Dockerfile
+├── LICENSE
+├── Makefile
+├── README.md
+├── go.mod
+├── go.sum
+├── k8s
+│   └── manifest
+│       ├── app
+│       │   ├── components
+│       │   │   ├── deployment.yaml
+│       │   │   └── service.yaml
+│       │   └── kustomization.yaml
+│       ├── grafana
+│       │   ├── deployment.yaml
+│       │   ├── pvc.yaml
+│       │   └── service.yaml
+│       └── nginx
+│           └── nginx-ingress.yml
+└── main.go
+```
+
 ## Setup
 ビルドする
 ```
